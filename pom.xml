@@ -22,6 +22,7 @@
 
   <modules>
     <module>ms_producto</module>
+    <module>ms_discoveryserver</module>
   </modules>
 
   <url/>
