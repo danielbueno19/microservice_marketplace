@@ -24,6 +24,7 @@
     <module>ms_producto</module>
     <module>ms_reserva</module>
     <module>ms_discoveryserver</module>
+    <module>ms_configserver</module>
   </modules>
 
   <url/>
