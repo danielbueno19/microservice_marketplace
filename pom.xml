@@ -25,6 +25,7 @@
     <module>ms_reserva</module>
     <module>ms_discoveryserver</module>
     <module>ms_configserver</module>
+    <module>ms_apigateway</module>
   </modules>
 
   <url/>
