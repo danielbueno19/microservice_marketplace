@@ -26,6 +26,7 @@
     <module>ms_discoveryserver</module>
     <module>ms_configserver</module>
     <module>ms_apigateway</module>
+    <module>ms_stock</module>
   </modules>
 
   <url/>
