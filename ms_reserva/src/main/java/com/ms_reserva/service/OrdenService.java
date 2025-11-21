@@ -24,7 +24,7 @@ public class OrdenService {
     public String guardarOrden(OrdenDto ordenDto){
 
         boolean hayStockDisponible = ordenDto.getOrdenItems().stream()
-                .allMatch(ordenItem -> stockClient.existeStock(ordenItem.getCodigo()));
+                .allMatch(ordenItem -> stockClient.isStockDisponible(ordenItem.getCodigo()));
 
         if(hayStockDisponible){
             Orden orden = new Orden();
