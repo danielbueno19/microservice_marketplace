@@ -6,9 +6,6 @@ import com.ms_reserva.entity.Orden;
 import com.ms_reserva.repository.OrdenRepository;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -38,7 +35,7 @@ public class OrdenService {
         return "Orden cancelada";
     }
 
-    private ResponseEntity<String> fallbackOrdenToStock (){
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Algo salio mal, intenta mas tarde");
+    public String fallbackOrdenToStock (OrdenDto ordenDto, Throwable t){
+        return "Algo salió mal, intenta más tarde";
     }
 }

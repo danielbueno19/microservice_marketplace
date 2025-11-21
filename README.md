@@ -92,18 +92,3 @@ mvn spring-boot:run
 
 Cada microservicio tiene su propia configuración que puede ser personalizada a través del servidor de configuración centralizada.
 
-## Contribución
-
-1. Haz un fork del proyecto
-2. Crea una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
-3. Haz commit de tus cambios (`git commit -am 'Añadir nueva funcionalidad'`)
-4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Crea un nuevo Pull Request
-
-## Licencia
-
-[Especificar la licencia del proyecto]
-
-## Contacto
-
-[Información de contacto del equipo o desarrolladores]
